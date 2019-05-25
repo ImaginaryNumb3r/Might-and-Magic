@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31bbf52c-5ab5-4932-bac1-4ad3deb06f3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Code/MM7/Class Skills.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/MM7/ITEMS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/MM7/Spells2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/MM7/monsters.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/MM7/monsters.special" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/Common.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/ConstAndBits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/Debug.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/ErrorFunction.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/EventsList.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/RSFunctions.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/RSMem.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/RSNoGlobals.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/RSPersist.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/dump.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/events.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/evt.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/main.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/mobdebug.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/offsets.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/socket.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/timers.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/1_TownPortalSwitch.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/2_OutdoorTravels.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/AdaptiveMonstersStats.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/Additional UI.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/CouncilAppearance.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/DataTables.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/DebugConsoleKey.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/ExtraEvents.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/Functions.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/LocalizeTables.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/MenuChooseCharacter.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/MenuChooseContinent.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/MenuControls.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/MiscTweaks.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/MonsterItems.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/MouseLookTmp.lua.off" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/NPCFollowers.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/NPCMercenaries.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/NPCNewsTopics.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/NPCTeacherAutonotes.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/PaletteMul.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/Palettes.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/RemoveIndoorLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/RemoveOutdoorLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/SpellsTweaks.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/SwitchGold.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/UsableItems.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/Weather.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/General/ZombiePlayers.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor BSP.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor Base.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor Data.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor Export.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor GUI.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor Ground.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor Import.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor Navigate.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor Odm Data.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor Odm Read.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor Outdoor Infinite View.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor Props.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Editor Read Data.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/ExtraArtifacts.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/ExtraPotions.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/NPCFollowersSkills.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/OutdoorAnimObjects.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/PromotionTopics.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Quest_CrossContinents.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Quest_DragonHatchling.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Quest_EnrothDarkArts.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Quest_EnrothGrandmasters.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Quest_SavingGoobers.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/Reputation.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/StdQuestsFollowers.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/StdQuestsFunctions.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Global/TownPortalSwitches.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/6d02.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/6d03.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/6d07.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/6d08.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/6t3.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/6t8.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7d05.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7d06.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7d08.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7d23.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7d25.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7d27.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7d29.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7d30.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7d34.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7out01.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7out02.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7out03.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7out04.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7out05.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7out13.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/7out15.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/BrAlvar.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/BrBase.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/Breach.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/cd1.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/cd2.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/cd3.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/d03.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/d07.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/d19.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/d24.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/d42.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/hive.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/oracle.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/out01.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/out02.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/out04.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/out05.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/out06.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/out07.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/out09.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/out11.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/out14.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/outa2.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/outa3.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/outb1.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/outb2.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/outb3.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/outc1.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/outc2.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/outc3.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/outd1.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/outd3.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/oute2.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/oute3.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/pyramid.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/sci-fi.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Maps/sewer.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/00 structs.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/01 common structs.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/02 Increase Facets Limit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/Backup.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/DataTablesSupport.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/Functions.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/GlobalEventsNewHandler.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/HWWater.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/HardcodedTopicFunctions.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/InterfaceManager.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/LocalizationAndQuests.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/MM8 Blaster.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/MoveModel.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/Palettes.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/Remove2DEventsLimit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveClassLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveHostileTxtLimit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveHouseMoviesLimit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveIndoorLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveMapMonstersLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveMapMonstersLimits.lua.off" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveMapStatsLimit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveMonPortraitsLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveMonstersAndPlacemonLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveNPCTablesLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveOutdoorLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveQBitsAndABitsLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveSkillBonusLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveSpritesToDrawLimit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveTransitionLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/RemoveTravelLocationsLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/After/Text Tables.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/CharacterOutfits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/GlobalTxt.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/RacialSkills.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/RemoveHouseRulesLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Structs/RemoveItemsLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D06.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D08.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/D37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/GLOBAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDK01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDK02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDK03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDK04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDK05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDR01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDR02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDR03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDR04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDR05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDT01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDT02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDT03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDT04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDT05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDT09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDT10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDT11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDT12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDT14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/MDT15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/NWC.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT06.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/OUT15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/T01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/T02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/T03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/MM7Scripts/T04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/Common.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/ConstAndBits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/Debug.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/ErrorFunction.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/EventsList.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/RSFunctions.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/RSMem.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/RSNoGlobals.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/RSPersist.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/dump.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/events.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/evt.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/main.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/mobdebug.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/offsets.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/socket.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Core/timers.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/General/DataTables.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/General/DebugConsoleKey.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/General/test.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/00 structs.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/01 common structs.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/02 Increase Facets Limit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/Backup.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/DataTablesSupport.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/Functions.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/LocalizationAndQuests.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/MM8 Blaster.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/MoveModel.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/Palettes.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/Remove2DEventsLimit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/RemoveHouseMoviesLimit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/RemoveIndoorLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/RemoveMapStatsLimit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/RemoveOutdoorLimits.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/RemoveSpritesToDrawLimit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/Scripts/Structs/After/Text Tables.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D01.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D02.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D03.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D04.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D05.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D06.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D07.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D08.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D09.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D10.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D11.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D12.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D13.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D14.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D15.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D16.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D17.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D18.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D19.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D20.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D21.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D22.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D23.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D24.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D25.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D26.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D27.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D28.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D29.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D30.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D31.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D32.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D33.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D34.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D35.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D36.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/D37.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/GLOBAL.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDK01.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDK02.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDK03.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDK04.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDK05.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDR01.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDR02.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDR03.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDR04.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDR05.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDT01.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDT02.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDT03.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDT04.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDT05.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDT09.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDT10.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDT11.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDT12.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDT14.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/MDT15.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/NWC.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT01.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT02.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT03.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT04.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT05.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT06.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT09.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT10.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT11.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT12.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT13.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT14.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/OUT15.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/T01.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/T02.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/T03.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/T04.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D06.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D08.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/D37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/GLOBAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDK01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDK02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDK03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDK04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDK05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDR01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDR02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDR03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDR04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDR05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDT01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDT02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDT03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDT04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDT05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDT09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDT10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDT11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDT12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDT14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/MDT15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/NWC.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT06.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/OUT15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/T01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/T02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/T03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Resources/mm7/txt/T04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/monsters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/notes/AC Plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/notes/Documentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/notes/HP Plot Original.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/notes/HP Plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/notes/Minor Class Rebalance.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/notes/Next Steps.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/notes/Resources.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/notes/TODO.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/notes/Ultimate Goals.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/notes/lessons learned.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/notes/mm8/Races Rebalance.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/spell/SpellData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MM7/Spells2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MM7/monsters.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/Code/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Code/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MM7/monsters.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code/src/monster/MonsterTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-874">
+              <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code/src/monster/MonsterGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code/MM7/monsters.base">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code/notes/Next Steps.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>juni</find>
+      <find>plugins</find>
+      <find>spell</find>
+      <find>Path</find>
+      <find>A</find>
+      <find>wizard eye</find>
+      <find>blade</find>
+      <find>rock blast</find>
+      <find>mind blast</find>
+      <find>src</find>
+      <find>gargoy</find>
+      <find>dragon a</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Code/src/misc/DamageCalcTest.java" />
+        <option value="$PROJECT_DIR$/Code/src/monster/MonsterGroup.java" />
+        <option value="$PROJECT_DIR$/Code/pom.xml" />
+        <option value="$PROJECT_DIR$/Code/src/monster/MonsterTable.java" />
+        <option value="$PROJECT_DIR$/Code/src/monster/MonsterData.java" />
+        <option value="$PROJECT_DIR$/Code/src/spell/SpellExecutor.java" />
+        <option value="$PROJECT_DIR$/Code/src/spell/SpellData.java" />
+        <option value="$PROJECT_DIR$/Code/src/monster/Karkit.java" />
+        <option value="$PROJECT_DIR$/Code/notes/Next Steps.txt" />
+        <option value="$PROJECT_DIR$/MM7/monsters.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/Code/spell-calc.iml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/Code/spell-calc.iml" />
+        <option value="$PROJECT_DIR$/Code/might-and-magic.iml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/Might-and-Magic.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="656" />
+    <option name="height" value="466" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Might-and-Magic" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Might-and-Magic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Might-and-Magic" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Might-and-Magic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="Code" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Might-and-Magic" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Might-and-Magic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="Code" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="MM7" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Might-and-Magic" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Might-and-Magic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="Code" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="notes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Might-and-Magic" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Might-and-Magic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="Code" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Might-and-Magic" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Might-and-Magic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="MM7" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Might-and-Magic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Might-and-Magic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MM7" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Spiele\Legacy\Might and Magic VII\Projects\Might-and-Magic\MM7" />
+      <recent name="D:\Spiele\Legacy\Might and Magic VII\Projects\Might-and-Magic\MM7\lod" />
+      <recent name="D:\Spiele\Legacy\Might and Magic VII\Projects\Might-and-Magic\Code" />
+      <recent name="D:\Spiele\Legacy\Might and Magic VII\Projects\Might-and-Magic" />
+      <recent name="D:\Spiele\Legacy\Might and Magic VII\Projects\Might-and-Magic\Code\MM7" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Spiele\Legacy\Might and Magic VII\Projects\Might-and-Magic\Code\MM7" />
+      <recent name="D:\Spiele\Legacy\Might and Magic VII\Projects\Might-and-Magic\Code" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MonsterTable">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonsterPlotter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="monster.MonsterPlotter" />
+      <module name="might-and-magic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="monster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonsterTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="monster.MonsterTable" />
+      <module name="Might-and-Magic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="monster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpellExecutor (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spell.SpellExecutor" />
+      <module name="spell-calc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spell.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpellExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spell.SpellExecutor" />
+      <module name="might-and-magic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spell.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MonsterTable" />
+        <item itemvalue="Application.SpellExecutor" />
+        <item itemvalue="Application.MonsterPlotter" />
+        <item itemvalue="Application.SpellExecutor (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31bbf52c-5ab5-4932-bac1-4ad3deb06f3a" name="Default Changelist" comment="" />
+      <created>1558538397731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558538397731</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25305623" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="LuaCheck" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32972974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.11124694" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Code/src/monster/MonsterTable.java</url>
+          <line>176</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Code/src/misc/FieldHandle.java</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Code/src/spell/SpellExecutor.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Code/monster.header">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/Spells2.txt" />
+    <entry file="file://$PROJECT_DIR$/Code/src/monster/Resistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/monster/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="226" selection-start-line="226" selection-end-line="226" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/misc/DamageCalcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/monster/TableNormalizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/monsters.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/Code/src/monster/MonsterPlotter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/MM7/monsters.special">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="73" lean-forward="true" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spell Calc/target/monsters.special" />
+    <entry file="file://$PROJECT_DIR$/Code/MM7/Spells2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spell Calc/Spell Calc.iml" />
+    <entry file="file://$PROJECT_DIR$/Code/src/spell/Spell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spell Calc/Spells2.txt" />
+    <entry file="file://$PROJECT_DIR$/Code/src/misc/FieldHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/notes/mm8/Races Rebalance.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spell Calc/Class Skills.txt" />
+    <entry file="file://$PROJECT_DIR$/Code/MM7/Class Skills.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MM7/ITEMS.txt" />
+    <entry file="file://$PROJECT_DIR$/Code/Resources/MM Merge Scripts/Core/evt.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/spell/SpellExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="107" column="61" selection-start-line="107" selection-start-column="61" selection-end-line="107" selection-end-column="61" />
+          <folding>
+            <element signature="e#4275#4276#0" expanded="true" />
+            <element signature="e#4347#4348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/spell/SpellData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MM7/monsters_original.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MM7/Class Starting Stats.txt" />
+    <entry file="file://$PROJECT_DIR$/MM7/Spells2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MM7/Class Skills.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/monster/MonsterData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MM7/lod/MAPSTATS.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MM7/lod/ITEMS.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MM7/lod/CLASS.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MM7/Class HP SP.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/MM7/ITEMS.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/monster/Karkit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/notes/Next Steps.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/MM7/monsters.base">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MM7/monsters.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/monster/MonsterTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
+          <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/monster/MonsterGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Might-and-Magic</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.github.ImaginaryNumb3r:Hephaestus-essentials:86e16885c2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
